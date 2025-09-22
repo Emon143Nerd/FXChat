@@ -30,7 +30,7 @@
                     prefHeight="256" prefWidth="418"
                     fitToWidth="true">
 
-            <!-- ✅ directly place VBox here -->
+            <!-- directly place VBox here -->
             <VBox fx:id="fx_messages"
                   prefWidth="412" prefHeight="248" />
         </ScrollPane>

@@ -55,7 +55,7 @@ public class HelloController implements Initializable {
             }
         });
 
-        server.receiveMessageFromCliennt(vbox_messages);
+        server.receiveMessageFromClient(vbox_messages);
 
         button_send.setOnAction(new EventHandler<ActionEvent>() {
             @Override
