@@ -52,12 +52,15 @@ public class Server {
     }
 
     public void closeEverything(Socket socket,
-                                BufferedReader bufferedReader,
-                                BufferedWriter bufferedWriter) {
+            BufferedReader bufferedReader,
+            BufferedWriter bufferedWriter) {
         try {
-            if (bufferedReader != null) bufferedReader.close();
-            if (bufferedWriter != null) bufferedWriter.close();
-            if (socket != null) socket.close();
+            if (bufferedReader != null)
+                bufferedReader.close();
+            if (bufferedWriter != null)
+                bufferedWriter.close();
+            if (socket != null)
+                socket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
